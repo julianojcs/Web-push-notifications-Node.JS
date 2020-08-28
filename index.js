@@ -13,11 +13,11 @@ webpush.setVapidDetails(
 
 const app = express();
 
-app.use('/healthcheck', require('express-healthcheck')({
-    healthy: function () {
-        return { everything: 'is ok' };
-    }
-}));
+// app.use('/healthcheck', require('express-healthcheck')({
+//     healthy: function () {
+//         return { everything: 'is ok' };
+//     }
+// }));
 
 app.use(require('body-parser').json());
 
