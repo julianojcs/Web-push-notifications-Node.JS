@@ -8,5 +8,23 @@
     "express-static": "^1.2.6",
     "nocache": "^2.1.0",
     "web-push": "^3.3.0"
-  }
+  },
+  "description": "Sending web push notifications from Node.JS",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianojcs/Web-push-notifications-Node.JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianojcs/Web-push-notifications-Node.JS/issues"
+  },
+  "homepage": "https://github.com/julianojcs/Web-push-notifications-Node.JS#readme"
 }

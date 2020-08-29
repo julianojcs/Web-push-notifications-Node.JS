@@ -27,10 +27,10 @@ app.post('/subscribe', (req, res) => {
 	const dataToSend = JSON.stringify({
 		title: 'Cashier:',
 		options: {
-			body: 'What do you want Talis?',
+			body: 'What do you want?',
 			icon: 'https://lh3.googleusercontent.com/DKoidc0T3T1KvYC2stChcX9zwmjKj1pgmg3hXzGBDQXM8RG_7JjgiuS0CLOh8DUa7as',
 			requireInteraction: false,
-			silent: true,
+			silent: false,
 			vibrate: [200, 100, 200, 100, 200, 100, 200],
 			tag: 'Payment',
 			actions: [{
